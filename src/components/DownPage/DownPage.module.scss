@@ -1,0 +1,36 @@
+.downPage {
+  height: 100vh;
+  width: 100vw;
+  background: url("../../assest/img/background_wall.png") center center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.person {
+position: relative;
+  .vito {
+    height: calc(100vh - 10%);
+  }
+}
+
+.ellipse {
+  height: 50vw;
+  position: absolute;
+  bottom: 50vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 500px) {
+  .downPage{
+    height: initial;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .vito{
+    display: none;
+  }
+}
