@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/allods/static/css/main.9d7a9677.css",
+    "main.js": "/allods/static/js/main.72b00e6f.js",
+    "static/media/Hue_Saturation 5 1.png": "/allods/static/media/Hue_Saturation 5 1.c5b7889bb54c9ab3454e.png",
+    "static/media/glow.png": "/allods/static/media/glow.c0fe067544d9fd3c7c2b.png",
+    "static/media/boxes.png": "/allods/static/media/boxes.3cf21ba79c33c56f8ec1.png",
+    "static/media/background_wall.png": "/allods/static/media/background_wall.f00c60d6f1be09bf0c0f.png",
+    "static/media/Ellipse.png": "/allods/static/media/Ellipse.0178f0d47d68ed35834c.png",
+    "static/media/MafiaCostume_2022 3.png": "/allods/static/media/MafiaCostume_2022 3.ade7780e49f9fcf2459a.png",
+    "static/media/MafiaCostume_2022 2.png": "/allods/static/media/MafiaCostume_2022 2.d47e34d9d6bfc7484e73.png",
+    "static/media/vito.png": "/allods/static/media/vito.ac25d497ba9109f40e99.png",
+    "static/media/box.png": "/allods/static/media/box.ce58c18648142d6cd217.png",
+    "static/media/logo.png": "/allods/static/media/logo.5a3f607092ca7f9b548d.png",
+    "index.html": "/allods/index.html",
+    "main.9d7a9677.css.map": "/allods/static/css/main.9d7a9677.css.map",
+    "main.72b00e6f.js.map": "/allods/static/js/main.72b00e6f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d7a9677.css",
+    "static/js/main.72b00e6f.js"
+  ]
+}
