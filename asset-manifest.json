@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/allods/static/css/main.9d7a9677.css",
-    "main.js": "/allods/static/js/main.72b00e6f.js",
+    "main.css": "/allods/static/css/main.301f2c97.css",
+    "main.js": "/allods/static/js/main.d909668d.js",
     "static/media/Hue_Saturation 5 1.png": "/allods/static/media/Hue_Saturation 5 1.c5b7889bb54c9ab3454e.png",
     "static/media/glow.png": "/allods/static/media/glow.c0fe067544d9fd3c7c2b.png",
     "static/media/boxes.png": "/allods/static/media/boxes.3cf21ba79c33c56f8ec1.png",
@@ -13,11 +13,11 @@
     "static/media/box.png": "/allods/static/media/box.ce58c18648142d6cd217.png",
     "static/media/logo.png": "/allods/static/media/logo.5a3f607092ca7f9b548d.png",
     "index.html": "/allods/index.html",
-    "main.9d7a9677.css.map": "/allods/static/css/main.9d7a9677.css.map",
-    "main.72b00e6f.js.map": "/allods/static/js/main.72b00e6f.js.map"
+    "main.301f2c97.css.map": "/allods/static/css/main.301f2c97.css.map",
+    "main.d909668d.js.map": "/allods/static/js/main.d909668d.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d7a9677.css",
-    "static/js/main.72b00e6f.js"
+    "static/css/main.301f2c97.css",
+    "static/js/main.d909668d.js"
   ]
 }
