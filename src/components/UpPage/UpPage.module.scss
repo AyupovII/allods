@@ -8,7 +8,7 @@
 
 }
 
-.glow {
+.upPage__glow {
   background: url("../../assest/img/glow.png") center center no-repeat;
   position: absolute;
   height: 100vh;
@@ -24,11 +24,11 @@
   background-position: 40% 50%;
 }
 
-.mafiaCostume {
+.upPage__mafiaCostume {
   height: min(100vh, 100vw);
 }
 
-.box {
+.upPage__box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,18 +39,18 @@
   transform: translate(-50%, -50%);
 }
 
-.logo {
+.box__logo {
   width: 50%;
 }
 
-.boxes {
+.box__boxes {
   position: relative;
   bottom: 10%;
   height: 50vw;
   min-height: 70px;
 }
 
-.text {
+.box__text {
   position: relative;
   bottom: 15%;
   color: white;

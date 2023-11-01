@@ -7,14 +7,14 @@
   justify-content: center;
 }
 
-.person {
+.downPage__person {
 position: relative;
-  .vito {
-    height: calc(100vh - 10%);
-  }
+}
+.person__img{
+  height: calc(100vh - 10%);
 }
 
-.ellipse {
+.person__ellipse {
   height: 50vw;
   position: absolute;
   bottom: 50vw;
@@ -30,7 +30,7 @@ position: relative;
     flex-direction: row;
   }
 
-  .vito{
+  .person__img{
     display: none;
   }
 }

@@ -15,7 +15,7 @@
   }
 }
 
-.table-title {
+.collection__column {
   composes: container;
   color: #671D007A;
   align-items: center;
@@ -29,7 +29,7 @@
   }
 }
 
-.item {
+.table__row {
   border: 1px solid #671D007A;
   align-items: center;
   display: flex;
@@ -41,38 +41,38 @@
   }
 }
 
-.values-left {
+.row__left {
   display: flex;
   align-items: center;
   gap: 10px;
   text-align: left;
 }
 
-.values-right {
+.row__right {
   composes: container;
 }
-.buy{
+.collection__buy{
   display: flex;
   align-items: flex-end;
 }
-.area-buy{
+.buy__area{
   position: relative;
   right: 140px;
   bottom: 55px;
 }
-.price{
+.area__price{
   color: white;
   font-size: 50px;
   display: flex;
 }
-.button{
+.area__button{
   background-color: #FCFF00;
   border-radius: 5px;
   padding: 10px 15px;
   color:black;
 }
 @media (max-width: 500px) {
-  .text{
+  .left__text{
     display: none;
 }
 .area-buy{

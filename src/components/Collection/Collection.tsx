@@ -57,36 +57,36 @@ const Collection = () => {
   ]
   return (
     <div className={style.collection}>
-      <div>НАБОР «ПОСЫЛКА С КОНТРАБАНДОЙ»</div>
-      <div className={style['table-title']}>
+      <div className={style.collection__title}>НАБОР «ПОСЫЛКА С КОНТРАБАНДОЙ»</div>
+      <div className={style.collection__column}>
         <div>Бесплатные сервера</div>
         <div>Подписочный сервер</div>
       </div>
-      <div>
+      <div className={style.collection__table}>
         {
           itemList.map((item: any) => {
-            return <div className={style.item}>
-              <div className={style['values-left']}>
-                <img src={item.icon} alt={item.title} />
-                <div className={style.text}>{item.title}</div>
+            return (
+              <div className={style.table__row}>
+                <div className={style.row__left}>
+                  <img src={item.icon} alt={item.title} />
+                  <div className={style.left__text}>{item.title}</div>
+                </div>
+                <div className={style.row__right}>
+                  <div>{item.freeServer ?? "-"}</div>
+                  <div>{item.subscriptionServer ?? "-"}</div>
+                </div>
               </div>
-              <div className={style['values-right']}>
-                <div>{item.freeServer ?? "-"}</div>
-                <div>{item.subscriptionServer ?? "-"}</div>
-              </div>
-
-            </div>
+            )
           })
         }
       </div>
-      <div className={style.buy}>
-        <img src={box} alt=""/>
-        <div className={style['area-buy']}>
-          <div className={style.price}>399 ₽</div>
-          <div className={style.button}>ПРИОБРЕСТИ</div>
+      <div className={style.collection__buy}>
+        <img src={box} alt="" />
+        <div className={style.buy__area}>
+          <div className={style.area__price}>399 ₽</div>
+          <div className={style.area__button}>ПРИОБРЕСТИ</div>
         </div>
       </div>
-
     </div>
   )
 };

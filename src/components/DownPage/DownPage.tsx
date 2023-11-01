@@ -7,9 +7,9 @@ import Collection from "../Collection/Collection";
 const DownPage = () =>{
   return(
     <div className={style.downPage}>
-      <div className={style.person}>
-        <img className = {style.vito} src={vito} alt="vito"/>
-        <img className = {style.ellipse} src={ellipse} alt="ellipse"/>
+      <div className={style.downPage__person}>
+        <img className = {style.person__img} src={vito} alt="vito"/>
+        <img className = {style.person__ellipse} src={ellipse} alt="ellipse"/>
       </div>
       <Collection />
     </div>
